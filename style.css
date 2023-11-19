@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(167, 162, 162);
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+
+}
+nav img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 30px;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    background-color: white;
+   
+}
+.image_1{
+    position: absolute;
+    margin: 80px;
+    width: 600px;
+    height: 500px;
+    z-index: 5;
+    margin-left: 200px;
+   
+
+}
+.image_2{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+    width: 300px;
+    height: 550px;
+
+   
+}
+.div_1{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    margin-left: 550px;
+    z-index: 10;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 400px;
+    border-radius: 5px;
+}
+h1{
+    font-size: xxx-large;
+    padding: 15px;
+    letter-spacing: 5px;
+
+}
+.div_1 p{
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px;
+}
+.div_1 button{
+    border-radius: 10px;
+    background-color: rgb(231, 161, 75);
+    margin-left: 10px;
+    border: 1px solid rgb(231, 161, 75);
+}
+
+.section_1{
+    
+    margin-top: 400px;
+}
+.part_1{
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.part{
+    display: flex;
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part .picture{
+    width: 120px;
+    height: 120px;
+    border: 8px solid goldenrod;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.part div{
+    display: flex;
+    gap: 15px;
+}
+.part img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    
+}
+.part h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.section_1 h2{
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+}
+.section_1 p{
+    text-align: center;
+    padding: 10px;
+}
+.part:hover{
+    box-shadow: 10px 15px 15px grey;
+}
+.section_2{
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+
+}
+.section_2 img{
+    margin-left: 50px;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+    
+}
+form h2{
+    text-align: center;
+    font-size: xx-large;
+}
+input, textarea{
+    border: none;
+    border-bottom: 3px solid grey;
+    padding: 10px;
+}
+form div a{
+    text-decoration: none;
+    color: goldenrod;
+}
+form button{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+}
+footer{
+    height: 50px;
+    padding: 10px;
+    background-color: gray;
+    bottom: 0px;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
